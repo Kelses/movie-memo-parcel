@@ -4,8 +4,8 @@
   "source": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html src/journal.html",
-    "build": "parcel build src/index.html src/journal.html"
+    "start": "parcel index.html journal.html",
+    "build": "parcel build index.html journal.html"
   },
   "keywords": [],
   "author": "",

@@ -1,9 +1,9 @@
 // Import necessary functions from external modules
-import { fetchProducts, apiConfig } from "./network.js";
+import { apiConfig, fetchFavoriteMovies } from "./network.js";
 import { addToJournal, addToCart, removeCard } from "./storage.js";
 
 // Fetch products and log them to the console (for debugging purposes)
-const variable = fetchProducts();
+const variable = fetchFavoriteMovies();
 console.log(variable);
 
 // Wait until the DOM is fully loaded before executing the script

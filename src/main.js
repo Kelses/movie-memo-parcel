@@ -1,5 +1,5 @@
 // Import necessary functions and configurations
-import { fetchProducts, apiConfig } from "./network.js";
+import { fetchFavoriteMovies, apiConfig } from "./network.js";
 import { addToJournal, addToCart } from "./storage.js";
 
 // DOM elements

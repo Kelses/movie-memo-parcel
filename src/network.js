@@ -10,7 +10,7 @@ export const apiConfig = {
  * @returns {Promise<Object>} - A promise that resolves to the fetched data.
  * @throws {Error} - Throws an error if the response is not OK.
  */
-export const fetchProducts = async () => {
+export const fetchFavoriteMovies = async () => {
   try {
     // Fetch data from the TMDB API
     const res = await fetch(apiConfig.tmdbBaseUrl);

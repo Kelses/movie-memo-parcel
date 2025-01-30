@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "movie-memo-parcel",
   "source": "index.html",
   "scripts": {
     "start": "parcel",
